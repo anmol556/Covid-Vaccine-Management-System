@@ -1,0 +1,111 @@
+*{
+    padding: 0%;
+   margin:-20%;
+
+}
+.wrapper{
+    width: 1170px;
+    height:80%;
+   margin:-10px;
+}
+header{
+    height: 140vh;
+    -webkit-background-size:cover;
+    background-size:cover;
+    background-position: center center;
+    position: relative;
+}
+.nav-area{
+    float:right;
+    list-style:none;
+    margin-top:30px;
+
+}
+.nav-area li{
+    display:inline-block;
+
+}
+.nav-area li a{
+    color:#fff;
+    padding: 5px 20px;
+    text-decoration: none;
+    font-family: poppins;
+    font-size:14px;
+}
+.nav-area li a hover{
+    background:black;
+    color:wheat;
+
+}
+.logo img{
+    width:100px;
+    height:150px;
+    float:left;
+}
+.welcome-text{
+    position: absolute;
+    width: 600px;
+    height: 300px;
+    margin: 10% 20%;
+}
+.welcome-text h1{
+    text-align:center;
+    color:rgb(8, 5, 5);
+    text-transform: uppercase;
+    font-size: 40px;
+}
+.welcome-text a{
+    border: 1px solid black;
+    padding:10px 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-top:20px;
+    display: inline-block;
+    color:black;
+}
+.welcome-text a:hover{
+    background:blue;
+    color: white ;
+}
+.header{
+    padding:10px;
+    background-color: blue;
+    margin:auto;
+}
+.header h2{
+    font-size: 140%;
+    color:white;
+}
+.box{
+    padding: 5%;
+    background-color: rgba(0,0,0,0.5);
+    margin:0% 30% ;
+}
+input[type=button]{
+background-color: blue;
+border:none;
+color:white;
+padding:10x 25px;
+text-decoration: none;
+margin:4px 2px;
+cursor:pointer;
+margin-left:10px;
+}
+.box h5{
+    color:white;
+}
+.logout{
+    background-color:green;
+border:none;
+color:white;
+padding:5x 5px;
+text-decoration: none;
+margin:4px 2px;
+cursor:pointer;
+margin-left:90%;
+}
+.logout a{
+    color:white;
+    text-align:center;
+}

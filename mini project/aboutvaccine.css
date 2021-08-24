@@ -1,0 +1,66 @@
+.heading{
+    color: orangered;
+    font-style: oblique;
+    font-weight: 100;
+    font:oblique;
+}
+.about{
+    padding:20px;
+    background-color: black;
+    color: white; 
+    margin:20px;
+    font-size:400%;
+}
+.image{
+margin-left:20px;
+}
+.desc{
+    float:right;
+    font-style: arial;
+    font-size:100%;
+}
+.paragraph{
+    font-size: 100%;
+    font-style: arial;
+}
+.vaccinedescrip{
+    margin-left: 200px;
+}
+.an{
+    padding:10px;
+    background-color: black;
+    margin-left: 40px;
+}
+footer{
+    background:rgb(14, 142, 151);
+    height: 150%;
+    width: 100vw;
+    font-family:"Open Sans";
+    padding-top: 40px;
+    color: white;
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.h4{
+    font-size: 120%;
+}
+.wrapper{
+    width:90%;
+    margin: 5% 5% 5%;
+}
+.text-wrapper{
+    width:100%;
+    position:relative;
+    margin-top:-8%;
+    margin:-9% -12% -3%;
+}
+.text-wrapper h4{
+    text-align:center;
+    color: black;
+    font-size: 20px;
+    margin-left: -28%;
+}

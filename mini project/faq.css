@@ -1,0 +1,144 @@
+.heading {
+    color: orangered;
+    font-style: oblique;
+    font-weight: 100;
+    font:oblique;
+}
+.about {
+    padding:10px;
+    background-color:black; 
+    color:white;
+    margin:15px;
+}
+.sliderbox
+{
+    position: relative;
+    width: 10800px;
+    animation-name:anmol;
+    animation-duration: 150s;
+    animation-iteration-count: infinite;
+}
+.sliderbox img {
+    
+    float: left;
+    margin-left:0px;
+}
+.slider{
+    width: 720px;
+    overflow: hidden;
+    margin-left:550px;
+    border:black;
+    }
+@keyframes anmol{
+    0%{
+        left:0px;
+    }
+    5%{
+        left: 0px;
+        }
+        6%{
+               left: 0px;
+           }
+         11%{
+           left:-720px;
+         }  
+         12%{
+             left:-720px;
+         }
+         17%{
+             left: -1440px;
+         }
+         18%{
+             left: -1440px;
+         }
+         23%{
+             left: -2160px;
+         }
+         24%{
+             left: -2160px;
+         }
+         29%{
+             left: -2880px;
+         }
+         30%{
+             left: -2880px;
+         }
+         35%{
+             left:-3600px;
+         }
+         36%{
+             left:-3600px;
+         }
+         41%{
+             left:-4320px;
+         }
+         42%{
+             left:-4320px;
+         }
+         47%{
+             left:-5040px;
+         }
+         48%{
+             left:-5040px;
+         }
+         53%{
+             left:-5760px;
+         }
+         54%{
+             left:-5760px;
+         }
+         59%{
+             left:-6480px;
+         }
+         60%{
+             left:-6480px;
+         }
+         65%{
+             left:-7200px;
+         }
+         63%{
+             left:-7200px;
+         }
+         71%{
+             left:-7920px;
+         }
+         72%{
+             left:-7920px;
+         }
+         77%{
+             left:-8640px;
+         }
+         78%{
+             left:-8640px;
+         }
+         83%
+         {
+             left:-9360px;
+         }
+         84%{
+             left:-9360px;
+         }
+         89%{
+             left:-10080px; 
+         }
+         90%{
+             left:-10080px;
+         }
+     100%{
+         left:-10800px;
+     }
+}
+footer{
+    background:rgb(14, 142, 151);
+    height: 150%;
+    width: 100vw;
+    font-family:"Open Sans";
+    padding-top: 50px;
+    color: white;
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}

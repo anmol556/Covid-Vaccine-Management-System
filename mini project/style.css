@@ -1,0 +1,139 @@
+.heading{
+    color: orangered;
+    font-style: oblique;
+    font-weight: 100;
+    font:oblique;
+}
+.body
+{ 
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 0px;
+    padding-right: 0px
+
+}
+.menu{ width:100%;
+    height:50px;
+    background-color:#17b91d;
+
+}
+.menu li:hover{
+    background-color: rgb(14, 11, 8);
+}
+.menu li a:hover{
+    color:rgb(42, 204, 204);
+}
+.menu li {
+    list-style: none;
+    width: 160px;
+    height:50px;
+    background-color: #17b91d;
+    margin-left:6px;
+    line-height: 50px;
+    text-align: center;
+    float: left;
+}
+.menu a {
+color: white;
+display:block;
+text-decoration:none;
+}
+.heading{
+    margin:40px
+}
+.slider{
+width: 960px;
+overflow: hidden;
+margin-left:200px;
+border:black;
+}
+.sliderbox
+{
+    position: relative;
+    width: 6500px;
+    animation-name:anmol;
+    animation-duration: 25s;
+    animation-iteration-count: infinite;
+}
+.sliderbox img {
+    
+    float: left;
+    margin-left:0px;
+}
+@keyframes anmol{
+    0%{
+        left:0px;
+    }
+    16%{
+    left: 0px;
+    }
+    20%{
+           left: 0px;
+       }
+     24%{
+       left:-960px;
+     }  
+     36%{
+         left:-960px;
+     }
+     40%{
+         left: -1920px;
+     }
+     56%{
+         left: -1920px;
+     }
+     60%{
+         left: -2880px;
+     }
+     76%{
+         left: -2880px;
+     }
+     80%{
+         left: -3840px;
+     }
+     96%{
+         left: -3840px;
+     }
+     100%{
+         left:-4800px;
+     }
+}
+.p{ 
+color: blue;
+ font-weight: 200px ;
+ font-style: oblique;  
+}
+.description
+{
+    font-size: 150;
+    text-align: center;
+    color: blue;
+}
+.paragraph{
+    text-align: center;
+    font-size: larger;
+    color: blue;
+}
+.important_links{
+    text-align: center;
+    font-size: 130%;
+}
+.image a{
+    float: left;
+    margin-left: 90px;
+    align:center;
+}
+footer{
+    background:rgb(14, 142, 151);
+    height: 150%;
+    width: 100vw;
+    font-family:"Open Sans";
+    padding-top: 40px;
+    color: white;
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
